@@ -1,0 +1,45 @@
+body {
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    text-align: center;
+}
+.body {
+    background-color: hsl(0, 0%, 20%);
+    margin: 100px auto;
+    inline-size: 300px;
+    block-size: 500px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    color: hsl(75, 94%, 57%);
+}
+a {
+    text-decoration: none;
+}
+button {
+    position: relative;
+    bottom: 0px;
+    display: grid;
+    margin: 10px auto;
+    padding: 15px 10px;
+    border-radius: 10px;
+    inline-size: 100%;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    transition: all 100ms ease-in-out;
+    color: black;
+}
